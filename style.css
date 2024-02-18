@@ -219,6 +219,7 @@ button.white {
     cursor: pointer;
     margin: 15px 0;
     transition: all .3s ease;
+    position: relative;
 }
 
 #fea_pro .pro_container .pro:hover {
@@ -229,4 +230,169 @@ button.white {
     width: 100%;
     border-radius: 20px;
 }
+
+#fea_pro .des {
+    margin: 20px 0;
+}
+
+#fea_pro .des span {
+    color: grey;
+    font-size: 16px;
+}
+
+#fea_pro .des h5 {
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+#fea_pro .des i {
+    color: rgb(255, 205, 60);
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+
+#fea_pro .des h4 {
+    color: #088178;
+    font-size: 15px;
+}
+
+#fea_pro .cart {
+    color: #088178;
+    background: #f7f5f5;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+    transition: 0.3s ease-in;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}
+
+#fea_pro .cart:hover {
+    background: #088178;
+    color: #fff;
+}
 /*FEATURED PRODUCT SECTION*/
+
+/*BANNER SECTION*/
+#banner {
+    background-image: url('img/banner/b2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 307.2px;
+    display: grid;
+    place-items: center;
+}
+
+#banner div {
+    text-align: center;
+}
+
+#banner div h4 {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+#banner div h2 {
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#banner div h2 span {
+    color: red;
+}
+
+#banner button:hover {
+    background: #088178;
+    color: #fff;
+}
+/*BANNER SECTION*/
+
+/*BANNER-2 SECTION*/
+#banner-2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#banner-2 .banner_box {
+    background-image: url('img/banner/b18.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    min-width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+#banner-2 .banner_box:nth-child(2) {
+    background-image: url('img/banner/b4.jpg');
+}
+
+#banner-2 .banner_box h4 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+
+#banner-2 .banner_box h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+}
+
+#banner-2 .banner_box span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#banner-2 button:hover {
+    background: #088178;
+    color: #000;
+    border: 1px solid #088178;
+}
+/*BANNER-2 SECTION*/
+
+/*BANNER-3*/
+#banner-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+#banner-3 .banner_box {
+    background-image: url('img/banner/b7.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    min-width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding:20px;
+    margin-bottom: 20px;
+}
+
+#banner-3 .banner_box:nth-child(2) {
+    background-image: url('img/banner/b10.jpg');
+}
+
+#banner-3 .banner_box:nth-child(3) {
+    background-image: url('img/banner/b17.jpg');
+}
+
+#banner-3 .banner_box span {
+    color: red;
+}
+/*BANNER-3*/
